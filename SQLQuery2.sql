@@ -1,0 +1,1 @@
+select *from Login where User='Radhe' or Password='Radhe123'
