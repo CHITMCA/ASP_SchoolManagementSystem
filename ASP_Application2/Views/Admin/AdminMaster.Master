@@ -14,23 +14,25 @@
         }
     </style>
 
-   
+
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row" style="height: 727px;">
+        <div class="row" style="height: 606px;">
             <div class="col-md-2" style="background-color: crimson">
+                <div class="col-md-6">
+                    <img src="../../Photos/department.jpeg" style="width: 220px" />
+                </div>
                 <div class="row mb-3">
-                    <div class="col-md-12">
-                        <img src="../../Photos/department.jpeg" style="width: 244px" />
-                    </div>
+
                     <div class="col-md-10 pt-2">
-                        <label class="text-white h4 text-center"> <img src="../../Photos/Flat-om.png" />SRM University</label>
+                        <label class="text-white h4 text-center">
+                            <img src="../../Photos/Flat-om.png" />SRM University</label>
                     </div>
                 </div>
-                <div class="mt-5" style="height:10px">
+                <%--<div class="mt-5" style="height:10px">
     
-                </div>
+                </div>--%>
                 <div class="row mb-2">
                     <div class="col-md-2">
                         <img src="../../Photos/Student.png" style="height: 50px; width: 58px" />
@@ -44,7 +46,8 @@
                         <img src="../../Photos/teacher.png" style="height: 50px; width: 58px" />
                     </div>
                     <div class="col-md-6 pt-2 text-center">
-                        <a href="Teachers.aspx"><label class="text-white h6">Teachers</label></a>
+                        <a href="Teachers.aspx">
+                            <label class="text-white h6">Teachers</label></a>
                     </div>
                 </div>
                 <div class="row mb-2">
@@ -52,7 +55,8 @@
                         <img src="../../Photos/Student.png" style="height: 50px; width: 58px" />
                     </div>
                     <div class="col-md-6 pt-2 text-center">
-                        <a href="Students.aspx"><label class="text-white h6">Students</label></a>
+                        <a href="Students.aspx">
+                            <label class="text-white h6">Students</label></a>
                     </div>
                 </div>
                 <div class="row mb-2">
@@ -60,7 +64,8 @@
                         <img src="../../Photos/p.png" />
                     </div>
                     <div class="col-md-6 pt-2 text-center">
-                        <a href="Marks.aspx"><label class="text-white h6">Marks</label></a>
+                        <a href="Marks.aspx">
+                            <label class="text-white h6">Marks</label></a>
                     </div>
                 </div>
 
@@ -69,7 +74,8 @@
                         <img src="../../Photos/p.png" />
                     </div>
                     <div class="col-md-6 pt-2 text-center">
-                        <a href="Schedules.aspx"><label class="text-white h6">Schedules</label></a>
+                        <a href="Schedules.aspx">
+                            <label class="text-white h6">Schedules</label></a>
                     </div>
                 </div>
                 <div class="row mb-2">
@@ -77,18 +83,20 @@
                         <img src="../../Photos/p.png" />
                     </div>
                     <div class="col-md-6 pt-2 text-center">
-                        <a href="Departments.aspx"><label class="text-white">Departments</label></a>
+                        <a href="Departments.aspx">
+                            <label class="text-white">Departments</label></a>
                     </div>
                 </div>
-                <div class="mt-5" style="height:37px">
+                <%--<div class="mt-5" style="height:37px">
                     
-                </div>
+                </div>--%>
                 <div class="row mt-5">
                     <div class="col-md-3">
                         <img src="../../Photos/Logout1.png" />
                     </div>
                     <div class="col-md-6 ">
-                        <a href="../../Login.aspx"><label class="text-white h6">Logout</label></a>
+                        <a href="../../Login.aspx">
+                            <label class="text-white h6">Logout</label></a>
                     </div>
                 </div>
             </div>
